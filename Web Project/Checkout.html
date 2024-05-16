@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-Commerce Website - Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Contact us.html">Contact Us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Terms_and_Conditions.html">Terms and Conditions</a></li>
+                <li><a href="Privacy_Policy.html">Privacy Policy</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+                <li><a href="Special_offers.html">Special Offers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="checkout">
+        <div class="container">
+            <h2>Checkout</h2>
+            <div class="checkout-form">
+                <form action="order_confirmation.html" method="post">
+                    <h3>Billing Information</h3>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="text" name="address" placeholder="Address" required>
+                    <input type="text" name="city" placeholder="City" required>
+                    <input type="text" name="zip" placeholder="ZIP Code" required>
+                    <input type="text" name="country" placeholder="Country" required>
+                    <h3>Payment Information</h3>
+                    <input type="text" name="card_number" placeholder="Card Number" required>
+                    <input type="text" name="expiry_date" placeholder="Expiry Date" required>
+                    <input type="text" name="cvv" placeholder="CVV" required>
+                    <button type="submit">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Your E-Commerce Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
